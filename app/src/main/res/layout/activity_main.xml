@@ -7,12 +7,24 @@
     android:orientation="vertical"
     tools:context="net.jptechnology.android.neocambio.MainActivity">
 
-    <ImageView
-        android:id="@+id/photo_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="255dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/background_image" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp">
+
+        <ImageView
+            android:id="@+id/photo_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="255dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_image" />
+
+        <Spinner
+            android:id="@+id/sort_by_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
 
     <EditText
         android:layout_width="match_parent"
