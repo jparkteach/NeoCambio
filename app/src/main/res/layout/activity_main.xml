@@ -14,6 +14,18 @@
         android:scaleType="centerCrop"
         android:src="@drawable/background_image" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Desired Quantity"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:textStyle="bold"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
