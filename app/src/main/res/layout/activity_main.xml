@@ -69,11 +69,6 @@
 
     </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/slw-corretora" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -104,19 +99,19 @@
                     android:layout_width="56dp"
                     android:layout_height="50dp"
                     android:layout_gravity="left"
-                    app:srcCompat="@drawable/slw-corretora" />
+                    app:srcCompat="@drawable/getmoney" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SLW"
+                    android:text="GetMoney"
                     android:textSize="35dp" />
 
                 <Button
                     android:id="@+id/button1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="end"
+                    android:layout_gravity="right"
                     android:text="buy"
                     android:layout_marginRight="12dp"
                     android:onClick="id/button1" />
