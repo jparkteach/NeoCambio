@@ -22,4 +22,10 @@
         <item>Reais</item>
         <item>Yen</item>
     </string-array>
+    <string-array name="autoCompleteTextView">
+        <item>Sao Paulo</item>
+        <item>Rio De Jenerio</item>
+        <item>Bei Jing</item>
+        <item>New York</item>
+    </string-array>
 </resources>
