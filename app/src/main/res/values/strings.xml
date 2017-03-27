@@ -16,4 +16,10 @@
         completions."
     </string>
     <string name="title_activity_sign_up">Sign Up</string>
+    <string-array name="currencySpinner">
+        <item>Dollars</item>
+        <item>Euros</item>
+        <item>Reais</item>
+        <item>Yen</item>
+    </string-array>
 </resources>
