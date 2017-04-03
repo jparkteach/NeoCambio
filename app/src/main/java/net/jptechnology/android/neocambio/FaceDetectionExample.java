@@ -1,4 +1,4 @@
-/**
+package net.jptechnology.android.neocambio; /**
  * Created by elysewarren on 3/27/17.
  */
 
@@ -19,8 +19,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
-import net.jptechnology.android.neocambio.R;
-
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -34,7 +32,7 @@ public class FaceDetectionExample extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.LoginActivity);
+        setContentView(R.layout.activity_login);
 
         findViewById(R.id.take_picture).setOnClickListener(btnClick);
     }
@@ -55,7 +53,7 @@ public class FaceDetectionExample extends Activity {
     }
 
     private void processCameraImage(Intent intent) {
-        setContentView(R.layout.detectlayout);
+//        setContentView(R.layout.detectlayout);
 
         findViewById(R.id.detect_face).setOnClickListener(btnClick);
 

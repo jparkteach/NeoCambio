@@ -41,7 +41,7 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <activity
-                android:name=".FaceDetectionExample"
+                android:name=".net.jptechnology.android.neocambio.FaceDetectionExample"
                 android:label="@string/title_activity_face_detection_example">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />

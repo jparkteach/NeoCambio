@@ -37,19 +37,8 @@
             android:layout_toRightOf="@id/currencySpinner"
             android:layout_marginLeft="40dp"
             android:background="@android:color/background_light"
-            android:layout_above="@+id/autoCompleteTextView" />
-
-        <AutoCompleteTextView
-            android:id="@+id/autoCompleteTextView"
-            android:layout_width="120dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="29dp"
-            android:text="@string/City"
-            android:background="@android:color/background_light"
-            android:layout_below="@+id/currencySpinner"
-            android:layout_alignLeft="@+id/currencySpinner"
-            android:layout_alignStart="@+id/currencySpinner"
-            android:layout_toStartOf="@id/button" />
+            android:layout_above="@+id/autoCompleteTextView"
+            android:inputType="number" />
 
         <Button
             android:id="@+id/button"
@@ -62,7 +51,20 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="27dp"
-            android:onClick="@+id/button" />
+            android:onClick="button" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="29dp"
+            android:text="@string/City"
+            android:background="@android:color/background_light"
+            android:layout_below="@+id/currencySpinner"
+            android:layout_alignLeft="@+id/currencySpinner"
+            android:layout_alignStart="@+id/currencySpinner"
+            android:layout_toLeftOf="@id/button"
+            android:layout_toStartOf="@+id/button" />
 
 
     </RelativeLayout>
