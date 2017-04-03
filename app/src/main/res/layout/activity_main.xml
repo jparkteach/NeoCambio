@@ -98,7 +98,7 @@
                     android:layout_gravity="end"
                     android:text="@string/Buy"
                     android:layout_marginTop="20dp"
-                    android:onClick="@id/button1" />
+                    android:onClick="buy1" />
 
             </LinearLayout>
 
@@ -121,7 +121,7 @@
                     android:layout_gravity="end"
                     android:layout_marginRight="12dp"
                     android:layout_marginTop="1dp"
-                    android:onClick="id/button2" />
+                    android:onClick="buy2" />
 
             </LinearLayout>
 
@@ -144,7 +144,7 @@
                     android:layout_gravity="end"
                     android:text="buy"
                     android:layout_marginRight="12dp"
-                    android:onClick="id/button3" />
+                    android:onClick="buy3" />
 
             </LinearLayout>
 
@@ -167,7 +167,7 @@
                     android:layout_gravity="end"
                     android:layout_marginRight="12dp"
                     android:layout_marginTop="1dp"
-                    android:onClick="id/button4" />
+                    android:onClick="buy4" />
             </LinearLayout>
 
             <LinearLayout
@@ -188,7 +188,7 @@
                     android:layout_gravity="end"
                     android:text="@string/Buy"
                     android:layout_marginRight="12dp"
-                    android:onClick="id/button5" />
+                    android:onClick="buy5" />
             </LinearLayout>
 
             <LinearLayout
@@ -210,7 +210,7 @@
                     android:layout_gravity="end"
                     android:layout_marginRight="12dp"
                     android:layout_marginTop="1dp"
-                    android:onClick="id/button6" />
+                    android:onClick="buy6" />
             </LinearLayout>
 
         </LinearLayout>

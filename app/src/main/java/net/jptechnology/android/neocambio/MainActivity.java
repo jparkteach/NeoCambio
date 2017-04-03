@@ -17,4 +17,34 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, SignUp.class);
         startActivity(i);
     }
+
+    public void buy1(View view) {
+        Intent i = new Intent(this, PurchaseActivity.class);
+        startActivity(i);
+    }
+
+    public void buy2(View view) {
+        Intent i = new Intent(this, PurchaseActivity.class);
+        startActivity(i);
+    }
+
+    public void buy3(View view) {
+        Intent i = new Intent(this, PurchaseActivity.class);
+        startActivity(i);
+    }
+
+    public void buy4(View view) {
+        Intent i = new Intent(this, PurchaseActivity.class);
+        startActivity(i);
+    }
+
+    public void buy5(View view) {
+        Intent i = new Intent(this, PurchaseActivity.class);
+        startActivity(i);
+    }
+
+    public void buy6(View view) {
+        Intent i = new Intent(this, PurchaseActivity.class);
+        startActivity(i);
+    }
 }
