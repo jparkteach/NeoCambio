@@ -35,5 +35,8 @@
     <string name="app_info">Click on the \'Take Picture\' to take a picture using Camera and detect the face(s) in the picture taken.</string>
     <string name="take_picture">Take Picture</string>
     <string name="detect_face">Detect Face</string>
+    <string name="City">City of Transfer</string>
+    <string name="Go">Go</string>
+    <string name="Buy">Buy</string>
 </resources>
 
